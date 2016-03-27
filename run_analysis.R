@@ -51,7 +51,7 @@ dataset3 <- aggregate(dataset2[,1:79],by=list(dataset2$Subject, dataset2$Activit
 names(dataset3)[1] <- "Subject"                 ##Give the variable "Subject" again a proper name
 names(dataset3)[2] <- "Activity"                ##Give the variable "Activity" again a proper name
 
-write.table(dataset3, "dataset3.txt")
+write.table(dataset3, "dataset3.txt", row.names = FALSE)
 ##data <- read.table("dataset3.txt")
 ##str(data)
 
