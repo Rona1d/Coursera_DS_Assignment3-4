@@ -34,10 +34,10 @@ All of the variables within this dataset are the means of these original variabl
 
 - Codebook
 
- Subject = int, anonimized indicator of the participant of the study
- Activity = Factor with 6 activity levels: laying, sitting, standing, walking, walking downstairs and walking upstairs
- tBodyAcc.mean.X              : num, standardised variable ranging from -1 to +1
- tBodyAcc.mean.Y              : num, standardised variable ranging from -1 to +1
+ - Subject = int, anonimized indicator of the participant of the study
+ - Activity = Factor with 6 activity levels: laying, sitting, standing, walking, walking downstairs and walking upstairs
+ - tBodyAcc.mean.X              : num, standardised variable ranging from -1 to +1
+ - tBodyAcc.mean.Y              : num, standardised variable ranging from -1 to +1
  tBodyAcc.mean.Z              : num, standardised variable ranging from -1 to +1
  tBodyAcc.std.X               : num, standardised variable ranging from -1 to +1
  tBodyAcc.std.Y               : num, standardised variable ranging from -1 to +1
